@@ -1,5 +1,5 @@
 import React from 'react';
-// import { render } from '@testing-library/react';
+
 
 class Menu extends React.Component {
 render(){
@@ -7,11 +7,8 @@ render(){
         <div className='Menu'>
             <div className='container'>
                 <div className="nav">
-                    <li>
-                        <ul>
-                            <a href=""></a>
-                        </ul>
-                    </li>
+                    <h6>menu</h6>
+                    <p>ibnuhajar</p>
                 </div>
             </div>
         </div>
