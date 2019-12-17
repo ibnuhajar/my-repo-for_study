@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 // import logo from './logo.svg';
+import Menu from './contain/Menu';
 import Header from './contain/Header';
 import Podcast from './contain/Podcast';
 import './App.css';
@@ -30,6 +31,7 @@ class App extends Component {
     return (
       <div>
         <Header />
+        <Menu />
         {this.state.podcast.map(podcast =><Podcast title={podcast.title} thumbnail={podcast.thumbnail} />)}
       </div>
     );

@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
+// import Header from './Header';
+// import Footer from './Footer';
 // import './Menu.css';
 
 class Menu extends React.Component {
 render(){  
     return(
         <div className="App">
-        <Header />
+        {/* <Header /> */}
         
         <div className='Menu'>
             <div className='container'>
@@ -17,7 +17,7 @@ render(){
                 </div>
             </div>
         </div>
-        <Footer />
+        {/* <Footer /> */}
         </div>
     );
 }
