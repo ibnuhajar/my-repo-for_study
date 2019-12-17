@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Menu from './contain/Menu';
+// import Menu from './contain/Menu';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Menu />,document.getElementById('head'));
+// ReactDOM.render(<Menu name={"Ibnu Hajar"} />,document.getElementById('head'));
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
